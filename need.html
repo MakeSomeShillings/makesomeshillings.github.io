@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="file:///C:/Users/Rain/Pictures/Whynottho.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Kanit&family=Pacifico&family=Whisper&display=swap" rel="stylesheet">
+		<style>
+			body{
+				background-color:#302519;
+				opacity:100%;
+				margin:0px;
+			    background-image:url("file:///C:/Users/Rain/Downloads/grunge-certificate-with-vintage-ornamental-frame.jpg");
+			     height:50%; /* You must set a specified height */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain cover; /* Resize the background image to cover the entire container */
+			 animation: mymove 2s ease-out 1;
+            
+			}
+
+
+			@keyframes mymove {
+            25%{opacity:0%;}
+            50%{opacity:25%;}
+            75%{opacity:50%;}
+            100%{opacity:100%;}
+
+			}
+			#gilly {
+				margin-top:200px;
+				rotate: 0deg;
+				height:150px;
+				width:150px;
+			    transition: all 0.1s ease;
+			    margin-right:auto;
+			    margin-left:auto;
+			    display:block;
+			    opacity:50%;
+			    
+			}
+
+
+
+
+
+           #gilly:hover {
+            transform: scale(1.1); 
+            rotate: -5deg;
+           opacity:100%;
+           
+           }
+
+            
+           #gilly:active {
+            transform: scale(0.7); 
+            rotate: 3deg;
+            filter: brightness(60%);
+           }
+
+            #gamer {
+            font-family: 'Ephesis', cursive;
+            text-align:center;
+            font-size:50px;
+            }
+		
+            #thug {
+            	text-align:center;
+            font-family:sans-serif;
+              	font-family: 'Ephesis', cursive;
+            font-size:50px;
+            }
+
+            #banger {
+text-align:center;
+            	font-family: 'Ephesis', cursive;
+                
+            }
+
+            #whatt {text-align:center;
+            font-family:sans-serif;
+              	font-family: 'Ephesis', cursive;
+            font-size:20px;}
+
+            #needs {text-align:center;
+            font-family:sans-serif;
+              	font-family: 'Ephesis', cursive;
+            font-size:40px;}
+		</style>
+		<meta charset="UTF-8">
+        <title>Make those Shillings</title>
+	</head>
+	<body>
+		
+		<img id="gilly" onclick="Hit()" src="file:///C:/Users/Rain/Downloads/Untitled%20design%20(1).png">
+		<p id="thug">Rank:<span id="ranktype">Prisoner</span></p>
+		<h1 id="banger">$<span id="gamer" >0</span></h1>   
+		<h2 id="needs">I don't have any needs rights now.</span></h2>   
+		<p id="whatt" onclick="Huh()">click this and i will hack you</p>
+		<script src="need.js"></script>
+	</body>
+</html>
