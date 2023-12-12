@@ -1,156 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-           <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-		<link rel="icon" type="image/png" href="favicon.png">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Kanit&family=Pacifico&family=Whisper&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ephesis&family=Kanit&family=Pacifico&family=Whisper&display=swap"
+			rel="stylesheet"
+		/>
 		<style>
 			#twitter {
-font-family: 'Lato', sans-serif;
-background-color:#4287f5;
-border-radius:5px;
-border:0px;
-width:75px;
-height:25px;
-padding-bottom:5px;
-display:block;
-margin-left:auto;
-margin-right:auto;
-position:relative;
-top:100%;
-
-			}
-#twitterlink {
-font-family: 'Lato', sans-serif;
-font-size:15px;	
-color:white;
-text-decoration:none;
-}
-
-#twitter:hover {
-background-color:#124aa3;
-
-}
-			
-			
-			
-			
-			
-			body{
-				background-color:#302519;
-				opacity:100%;
-				margin:0px;
-			    background-image:url("background.jpg");
-			     height:50%; /* You must set a specified height */
-  background-position: center center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain cover; /* Resize the background image to cover the entire container */
-			 animation: mymove 2s ease-out 1;
-            
+				font-family: "Lato", sans-serif;
+				background-color: #4287f5;
+				border-radius: 5px;
+				border: 0px;
+				width: 75px;
+				height: 25px;
+				padding-bottom: 5px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+				top: 100%;
 			}
 
+			#twitterlink {
+				font-family: "Lato", sans-serif;
+				font-size: 15px;
+				color: white;
+				text-decoration: none;
+			}
+
+			#twitter:hover {
+				background-color: #124aa3;
+			}
+
+			body {
+				background-color: #302519;
+				opacity: 100%;
+				margin: 0px;
+				background-image: url("background.jpg");
+				height: 50%;
+				/* You must set a specified height */
+				background-position: center center;
+				/* Center the image */
+				background-repeat: no-repeat;
+				/* Do not repeat the image */
+				background-size: contain cover;
+				/* Resize the background image to cover the entire container */
+				animation: mymove 2s ease-out 1;
+			}
 
 			@keyframes mymove {
-            25%{opacity:0%;}
-            50%{opacity:25%;}
-            75%{opacity:50%;}
-            100%{opacity:100%;}
+				25% {
+					opacity: 0%;
+				}
 
+				50% {
+					opacity: 25%;
+				}
+
+				75% {
+					opacity: 50%;
+				}
+
+				100% {
+					opacity: 100%;
+				}
 			}
+
 			#gilly {
-				margin-top:200px;
+				margin-top: 200px;
 				rotate: 0deg;
-				height:150px;
-				width:150px;
-			    transition: all 0.1s ease;
-			    margin-right:auto;
-			    margin-left:auto;
-			    display:block;
-			    opacity:50%;
-			    
+				height: 150px;
+				width: 150px;
+				transition: all 0.1s ease;
+				margin-right: auto;
+				margin-left: auto;
+				display: block;
+				opacity: 50%;
 			}
 
+			#gilly:hover {
+				transform: scale(1.1);
+				rotate: -5deg;
+				opacity: 100%;
+			}
 
+			#gilly:active {
+				transform: scale(0.7);
+				rotate: 3deg;
+				filter: brightness(60%);
+			}
 
+			#gamer {
+				font-family: "Ephesis", cursive;
+				text-align: center;
+				font-size: 50px;
+			}
 
+			#thug {
+				text-align: center;
+				font-family: sans-serif;
+				font-family: "Ephesis", cursive;
+				font-size: 50px;
+			}
 
-           #gilly:hover {
-            transform: scale(1.1); 
-            rotate: -5deg;
-           opacity:100%;
-           
-           }
+			#banger {
+				text-align: center;
+				font-family: "Ephesis", cursive;
+			}
 
-            
-           #gilly:active {
-            transform: scale(0.7); 
-            rotate: 3deg;
-            filter: brightness(60%);
-           }
+			#whatt {
+				text-align: center;
+				font-family: sans-serif;
+				font-family: "Ephesis", cursive;
+				font-size: 5px;
+			}
 
-            #gamer {
-            font-family: 'Ephesis', cursive;
-            text-align:center;
-            font-size:50px;
-            }
-		
-            #thug {
-            	text-align:center;
-            font-family:sans-serif;
-              	font-family: 'Ephesis', cursive;
-            font-size:50px;
-            }
+			#needs {
+				text-align: center;
+				font-family: sans-serif;
+				font-family: "Ephesis", cursive;
+				font-size: 40px;
+			}
 
-            #banger {
-text-align:center;
-            	font-family: 'Ephesis', cursive;
-                
-            }
-
-            #whatt {text-align:center;
-            font-family:sans-serif;
-              	font-family: 'Ephesis', cursive;
-            font-size:5px;}
-
-            #needs {text-align:center;
-            font-family:sans-serif;
-              	font-family: 'Ephesis', cursive;
-            font-size:40px;}
-		
-		#credits {
-		text-align:center;
-                font-size:10px;
-                position:relative;
-                display:block;
-                font-family: 'Roboto Condensed', sans-serif;
-                margin-right:auto;		
-                margin-left:auto;
-                top:100%;
-		}
-		
+			#credits {
+				text-align: center;
+				font-size: 10px;
+				position: relative;
+				display: block;
+				font-family: "Roboto Condensed", sans-serif;
+				margin-right: auto;
+				margin-left: auto;
+				top: 100%;
+			}
 		</style>
-		<meta charset="UTF-8">
-        <title>Make Some Shillings</title>
+		<meta charset="UTF-8" />
+		<title>Make Some Shillings</title>
 	</head>
+
 	<body>
-		
-		<img id="gilly" onclick="Hit()" src="shilling.png">
+		<img id="gilly" onclick="Hit()" src="shilling.png" />
 		<p id="thug">Rank:<span id="ranktype">Prisoner</span></p>
-		<h1 id="banger">$<span id="gamer" >0</span></h1>   
-		<h2 id="needs">I don't have any needs rights now.</span></h2>   
+		<h1 id="banger">$<span id="gamer">0</span></h1>
+		<h2 id="needs">I don't have any needs rights now.</h2>
 		<p id="credits">Made by @TheRiceChewer</p>
-		<button id="twitter"><b><a id="twitterlink" href="https://twitter.com/intent/tweet?text=Let's%20make%20some%20shilllllliiinnnng.%20https://makesomeshillings.github.io">Tweet</a></b></button>
+		<button id="twitter">
+			<b
+				><a
+					id="twitterlink"
+					href="https://twitter.com/intent/tweet?text=Let's%20make%20some%20shilllllliiinnnng.%20https://makesomeshillings.github.io"
+					>Tweet</a
+				></b
+			>
+		</button>
 		<script src="script.js"></script>
 	</body>
-	
 </html>
